@@ -4,7 +4,7 @@ The Grafana deployment package contains a sequence software (referred to as "com
 
 ## Path
 
-Grafana installation directory: */usr/share/grafana Grafana*  
+Grafana installation directory: */usr/share/grafana*  
 Grafana configuration file: */usr/share/grafana/conf/defaults.ini*  
 Grafana log file: */var/log/grafana/grafana.log*  
 Grafana data directory:*/usr/share/grafana/data*   

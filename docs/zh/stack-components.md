@@ -7,7 +7,7 @@ Grafana 预装包包含 Grafana 运行所需一序列支撑软件（简称为“
 ### Grafana
 
 
-Grafana 安装目录： */usr/share/grafana Grafana*  
+Grafana 安装目录： */usr/share/grafana*  
 Grafana 配置文件： */usr/share/grafana/conf/defaults.ini*  
 Grafana 日志文件： */var/log/grafana/grafana.log*  
 Grafana 数据存储路径：*/usr/share/grafana/data*   

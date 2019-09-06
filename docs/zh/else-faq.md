@@ -1,40 +1,21 @@
 # FAQ
 
-#### Grafana支持哪些数据库？
+#### Grafana支持哪些数据源？
 
 官方支持以下数据源:Graphite，InfluxDB，OpenTSDB，Prometheus，Elasticsearch，CloudWatch 和 KairosDB。
 
 #### Grafana数据库连接配置信息在哪里？
 
-数据库配置信息在Grafana安装目录下的 *metabase.conf* 中，[查阅安装目录路径](/zh/stack-components.md#metabase)
+数据库配置信息在Grafana安装目录下的 *defaults.ini* 中，[查阅安装目录路径](/zh/stack-components.md#grafana)
 
 #### 如果没有域名是否可以部署 Grafana？
 
 可以，访问`http://服务器公网IP` 即可
 
-#### 数据库 root 用户对应的密码是多少？
-
-密码存放在服务器相关文件中：`/credentials/password.txt`
-
-#### 是否有可视化的数据库管理工具？
-
-有，内置phpMyAdmin，访问地址：http://服务器公网IP:9090
-
-#### 如何禁止phpMyAdmin访问？
-
-关闭服务器安全组的9090端口即可禁止
-
-#### 是否可以修改Grafana的源码路径？
+#### 是否可以修改 Grafana 的访问端口？
 
 可以，通过修改 [Nginx 虚拟主机配置文件](/zh/stack-components.md)中相关参数
 
-#### 如何修改上传的文件权限?
-
-```shell
-chown -R nginx.nginx /data/wwwroot/metabase
-find /data/wwwroot/metabase -type d -exec chmod 750 {} \;
-find /data/wwwroot/metabase -type f -exec chmod 640 {} \;
-```
 #### 部署和安装有什么区别？
 
 部署是将一序列软件按照不同顺序，先后安装并配置到服务器的过程，是一个复杂的系统工程。  

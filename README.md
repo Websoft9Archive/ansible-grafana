@@ -8,7 +8,7 @@
 
 ## 服务器要求
 
-最低2核4G，具体参考[官方配置要求](https://docs.Grafana.com/server/6.0/install/pre-install.html)
+最低1核2G
 
 ## 组件
 

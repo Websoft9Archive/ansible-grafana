@@ -24,16 +24,4 @@ yum update -y
 
 ## Grafana升级
 
-Grafana有升级包的时候，后台会及时给出提示。参考下面的步骤完成升级：
-
-1. Grafana后台->设置->升级，如果有新的升级包，系统会给与提示
-![Grafana升级提示](https://libs.websoft9.com/Websoft9/DocsPicture/zh/metabase/metabase-updatereminder-websoft9.png)
-
-2. 点击“更新”按钮后，系统会跳转到Grafana官方的安装页面。
-3. 我们提供的部署包采用的是jar包安装模式，因此在安装页面我们选择“Custom install”模式，
-![Grafana升级提示](https://libs.websoft9.com/Websoft9/DocsPicture/zh/metabase/metabase-updatedl-websoft9.png)
-
-3. 下载Grafana.jar包后，上传到服务器 `/data/wwwroot/metabase`, 覆盖已有的同名文件
-![Grafana升级提示](https://libs.websoft9.com/Websoft9/DocsPicture/zh/metabase/metabase-updatereplace-websoft9.png)
-
-4. 重新加载Grafana，升级成功
+请参考官方提供的升级文档：[Upgrading Grafana](https://grafana.com/docs/installation/upgrading/)
