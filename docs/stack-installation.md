@@ -11,22 +11,22 @@ If you have completed the Grafana deployment on Cloud Platform, the following st
 ## Grafana Installation Wizard
 
 1. Using local Chrome or Firefox to visit the URL *http://domain name* or *http://Internet IP*, you will enter the register interface of Grafana
-![Grafana 登录](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-login-websoft9.png)
+![Grafana login page](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-login-websoft9.png)
 
-2. 输入默认的用户名和密码（[查看](/zh/stack-accounts.md#grafana)），系统会提示修改密码
-![Grafana 强提示修改密码](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-forcechangepw-websoft9.png)
+2. Input the [default username and password](/stack-accounts.md#grafana), then system will force you to change your password
+![Grafana change password](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-forcechangepw-websoft9.png)
 
-3. 登录到 Grafana 控制台页面  
-![Grafana 控制台](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-dashboard-websoft9.png)
+3. Log in to the Grafana Console  
+![Grafana console](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-dashboard-websoft9.png)
 
-4. 通过【Configuration】>【Plugins】添加插件  
-![Grafana 添加插件](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-plugins-websoft9.png)
+4. Open **Configuration** > **Plugins** to add plugins for function extension 
+![Grafana add plugin](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-plugins-websoft9.png)
 
-5. 通过【Configuration】>【Data Sources】添加数据源（分析对象）  
-![Grafana 添加数据源](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-datasource-websoft9.png)
+5. Open **Configuration** > **Data Sources** to add data source for analysis  
+![Grafana add data source](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-datasource-websoft9.png)
 
-6. 通过【Configuration】>【Users】增加用户    
-![Grafana 添加用户](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-users-websoft9.png)
+6. Open **Configuration** > **Users** to add user  
+![Grafana add user](https://libs.websoft9.com/Websoft9/DocsPicture/en/grafana/grafana-users-websoft9.png)
 
 > More useful Grafana guide, please refer to [Grafana Documentation](https://grafana.com/docs)
 
