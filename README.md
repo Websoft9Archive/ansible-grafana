@@ -11,7 +11,7 @@
 
 ## 组件
 
-包含的核心组件为：Grafana-CE 12.2.4, Omnibus package installation on Ubuntu 18.04
+包含的核心组件为：Grafana, Nginx, Node.js
 
 更多请见[参数表](/docs/zh/stack-components.md)
 
