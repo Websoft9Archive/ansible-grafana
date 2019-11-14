@@ -1,6 +1,6 @@
 # Grafana 自动化安装与部署
 
-本项目是由 [Websoft9](http://www.websoft9.com) 研发的 [Grafana](https://about.grafana.com/) 自动化安装程序，开发语言是 Ansible。使用本项目，只需要用户在 Linux 上运行一条命令，即可自动化安装 Grafana，让原本复杂的安装过程变得没有任何技术门槛。  
+本项目是由 [Websoft9](http://www.websoft9.com) 研发的 [Grafana](https://grafana.com/oss/) 自动化安装程序，开发语言是 Ansible。使用本项目，只需要用户在 Linux 上运行一条命令，即可自动化安装 Grafana，让原本复杂的安装过程变得没有任何技术门槛。  
 
 本项目是开源项目，采用 LGPL3.0 开源协议。
 
@@ -8,6 +8,8 @@
 
 操作系统：目支持Ubuntu18.x 及以上部署此脚本  
 硬件配置：最低2核2G，否则无法安装
+
+更多要求请参考官方文档 [Requirements](https://grafana.com/docs/installation/requirements/)
 
 ## 组件
 
