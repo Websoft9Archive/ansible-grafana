@@ -20,4 +20,5 @@
     - { role: common, tags: "common"}  
     - { role: nginx, tags: "nginx"}     
     - { role: grafana, tags: "grafana"}
+    - { role: end, tags: "end"}
                                      

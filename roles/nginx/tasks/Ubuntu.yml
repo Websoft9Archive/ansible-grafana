@@ -13,6 +13,12 @@
   apt:
     name: [nginx]
   
+- name: Import Certbot PPA
+  apt_repository:
+    repo: ppa:certbot/certbot
+
 - name: Install Certbot
   apt: 
     name: [certbot,python-certbot-nginx]
+
+
