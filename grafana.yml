@@ -1,6 +1,6 @@
 # 服务器前置任务(ubuntu使用)
-- name: grafana
-  hosts: grafana
+- name: Pre_tasks of Grafana
+  hosts: all
   become: yes
   become_method: sudo
   gather_facts: False
@@ -11,8 +11,8 @@
 
 # # 核心任务
 
-- name: grafana
-  hosts: grafana
+- name: Grafana
+  hosts: all
   become: yes
   become_method: sudo
 
