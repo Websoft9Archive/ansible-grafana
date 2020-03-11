@@ -1,0 +1,27 @@
+- name: import repository gpg key
+  apt_key:
+    url: https://packages.grafana.com/gpg.key
+
+- name: import repository for stable
+  apt_repository:
+    repo: deb https://packages.grafana.com/oss/deb stable main
+    filename: grafana
+    update_cache: yes
+
+- name: Install grafana
+  apt:
+    name: grafana
+
+- name: Start grafana
+  service:
+    name: grafana-server
+    state: started
+    enabled: yes
+
+- name: set reverse porxy
+  copy: 
+    src: default
+    dest: /etc/nginx/conf.d/default.conf
+
+- name: restart nginx
+  service: name=nginx state=restarted enabled=yes
