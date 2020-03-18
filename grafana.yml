@@ -1,9 +1,8 @@
 # 核心任务
-- name: MySQL
+- name: Grafana
   hosts: all
   become: yes
   become_method: sudo
-  gather_facts: True
 
   vars_files:
     - vars/main.yml
