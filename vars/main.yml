@@ -1,1 +1,10 @@
 nginx_reverse_proxy_port: "3000"
+
+init_application:
+  grafana:
+    random_password: True
+    default_account: admin
+    default_password: admin
+    random_password_method: 
+      - systemctl start grafana-server
+      - grafana-cli admin reset-admin-password $new_password
