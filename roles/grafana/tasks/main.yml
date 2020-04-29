@@ -12,9 +12,9 @@
 # set soft link
 - name: set soft link
   shell: |
-    ln -s /usr/share/grafana  /data/wwwroot/grafana
-    ln -s /usr/share/grafana/conf /data/config/grafana
-    ln -s /var/log/grafana /data/logs/grafana
+    ln -sb /usr/share/grafana  /data/wwwroot/grafana
+    ln -sb /usr/share/grafana/conf /data/config/grafana
+    ln -sb /var/log/grafana /data/logs/grafana
 
 # display version and service state of components
 - name: Get Grafana version
