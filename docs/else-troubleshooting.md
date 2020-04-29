@@ -1,8 +1,9 @@
 # Troubleshooting
 
-We collect the most common troubleshooting of using Grafana for your reference:
+We collect the most common troubleshooting of using Couchbase for your reference:
 
-## Database related
+> Instance troubleshooting is closely related to the Instance provider that is Cloud Platform, refer to [Cloud Platform Documentation](https://support.websoft9.com/docs/faq/tech-instance.html)
+
 
 #### Database service could not be started?
 
@@ -17,12 +18,3 @@ df -lh
 # view memory rate
 free -lh
 ```
-
-## Instance related
-
-Instance troubleshooting is closely related to the Instance provider that is Cloud Platform   
-Please refer to [Cloud Platform Documentation](https://support.websoft9.com/docs/faq/tech-instance.html)
-
-## Network related
-
-## Other

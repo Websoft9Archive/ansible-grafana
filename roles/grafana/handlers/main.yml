@@ -1,0 +1,7 @@
+- name: check_grafana_version
+  debug:
+    var: check_grafana_version.stdout
+    
+- name: check_grafana_service
+  debug:
+    var: check_grafana_service.stdout
