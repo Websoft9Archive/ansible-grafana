@@ -4,8 +4,10 @@
 
 ## Grafana
 
-Administrator 用户名：`admin`  
-Administrator 密码： `admin`
+Administrator username：`admin`  
+Administrator password： `admin` 或 存储在您的服务器中的文件中 */credentials/password.txt*  
+
+运行 `cat /credentials/password.txt` 命令，可以查看其中内容  
 
 ## Linux
 
