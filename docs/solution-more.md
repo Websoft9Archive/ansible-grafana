@@ -20,7 +20,6 @@ Grafana domain name binding steps:
    ```
 3. Save it and restart [Nginx Service](/admin-services.md#nginx)
 
+## CLI
 
-## Other
-
-Coming soon
+You can run the command `grafana-cli` directly

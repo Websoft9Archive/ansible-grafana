@@ -13,7 +13,7 @@ Grafana 日志文件： */var/log/grafana/grafana.log*
 Grafana 数据存储路径：*/usr/share/grafana/data*   
 Grafana 数据日志路径：*/usr/share/grafana/data/log*
 
-> Grafana 配置文件中包含数据库连接信息，STMP等重要配置
+> Grafana 配置文件中包含数据库连接信息，数据存储路径、日志存储路径、STMP等重要配置
 
 ### Go
 
@@ -21,7 +21,7 @@ Grafana 基于 Go 语言开发
 
 ### Node.js
 
-Grafana 前端采用 Node.js 开发，本预装包基于 apt 安装，前端已经构建好，服务器上无需安装 Node.js
+Grafana 前端采用 Node.js 开发，本预装包基于 apt/yum 安装，前端已经构建好，服务器上无需安装 Node.js
 
 ### Nginx
 

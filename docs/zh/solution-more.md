@@ -21,6 +21,6 @@ Grafana 域名绑定操作步骤：
 3. 保存配置文件，重启[Nginx服务](/zh/admin-services.md#nginx)
 
 
-## 迁移
+## CLI
 
-暂无
+直接运行 `grafana-cli` 即可
