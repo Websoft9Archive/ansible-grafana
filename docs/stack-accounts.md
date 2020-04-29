@@ -7,7 +7,7 @@ These accounts are required for Grafana image installation and configuration
 Administrator username: `admin`  
 Administrator username: `admin` or stored in the file of your server instance: */credentials/password.txt*  
 
-You use the **SSH** and run the command `cat /credentials/password.txt` to get the password
+You can use the **SSH** to run the command `cat /credentials/password.txt` to get the password
 
 ## Linux
 
