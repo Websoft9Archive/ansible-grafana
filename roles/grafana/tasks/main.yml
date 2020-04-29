@@ -13,7 +13,7 @@
 - name: set soft link
   shell: |
     ln -s /usr/share/grafana  /data/wwwroot/grafana
-    ln -s /etc/grafana/grafana.ini /data/config/grafana
+    ln -s /usr/share/grafana/conf /data/config/grafana
     ln -s /var/log/grafana /data/logs/grafana
 
 # display version and service state of components
