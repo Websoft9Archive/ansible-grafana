@@ -8,6 +8,14 @@
 
 数据库配置信息在Grafana安装目录下的 *defaults.ini* 中，[查阅安装目录路径](/zh/stack-components.md#grafana)
 
+#### Grafana 是否提供CLI工具？
+
+SSH登录服务器，即可运行 grafana-cli。功能非常强大，包括配置系统、修改密码等
+```
+# 修改管理员密码
+grafana-cli admin reset-admin-password admin123
+```
+
 #### 如果没有域名是否可以部署 Grafana？
 
 可以，访问`http://服务器公网IP` 即可
