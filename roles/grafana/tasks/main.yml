@@ -12,7 +12,7 @@
 # set soft link
 - name: set soft link
   shell: |
-    ln -s /usr/sbin/grafana-server  /data/wwwroot/grafana
+    ln -s /usr/share/grafana  /data/wwwroot/grafana
     ln -s /etc/grafana/grafana.ini /data/config/grafana
     ln -s /var/log/grafana /data/logs/grafana
 
