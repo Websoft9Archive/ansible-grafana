@@ -18,7 +18,7 @@
 
 # display version and service state of components
 - name: Get Grafana version
-  shell: cat /usr/sbin/grafana-server
+  shell: grafana-cli -v
   register: check_grafana_version
   notify: check_grafana_version
 
