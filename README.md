@@ -26,6 +26,7 @@
 ## 本项目安装的是 Grafana 最新版吗？
 
 本 Graylog 项目采用 yum/apt 安装，每次均可部署官方发布的最新版本 
+如果你发现不是最新版本，请到 [Grafana 下载页面](https://grafana.com/grafana/download)获取最新版源码下载链接，再修改 [main.yml](/roles/metabase/defaults/main.yml) 中的 ```metabase_download_url``` 变量值即可安装最新版 grafana。  
 
 ## 安装指南
 
