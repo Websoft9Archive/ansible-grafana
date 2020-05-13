@@ -1,6 +1,6 @@
 # Troubleshooting
 
-We collect the most common troubleshooting of using Couchbase for your reference:
+We collect the most common troubleshooting of using Grafana for your reference:
 
 > Instance troubleshooting is closely related to the Instance provider that is Cloud Platform, refer to [Cloud Platform Documentation](https://support.websoft9.com/docs/faq/tech-instance.html)
 
