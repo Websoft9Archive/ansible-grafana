@@ -7,5 +7,4 @@ init_application:
     default_account: admin
     default_password: admin
     random_password_method: 
-      - systemctl start grafana-server
       - grafana-cli admin reset-admin-password $new_password
