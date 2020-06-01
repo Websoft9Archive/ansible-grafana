@@ -9,3 +9,4 @@ init_application:
     service_after: grafana-server
     commands: 
       - grafana-cli admin reset-admin-password $new_password
+      - sed -i "s/grafana administrator password:{{dbs.password}}/grafana administrator password:$new_password/" /credentials/password.txt
