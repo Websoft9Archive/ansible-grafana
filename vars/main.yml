@@ -1,11 +1,11 @@
 nginx_reverse_proxy_port: "3000"
 preend_certbot: True
-init_service_before: "grafana-server"
 
 init_application:
   grafana:
-    random_password: True
-    default_account: admin
-    default_password: admin
-    random_password_method: 
+    username: admin
+    password: "admin"
+    service_before:
+    service_after: grafana-server
+    commands: 
       - grafana-cli admin reset-admin-password $new_password
