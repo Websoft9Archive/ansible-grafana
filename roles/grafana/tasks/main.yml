@@ -18,9 +18,7 @@
 
 # display version and service state of components
 - name: Get Grafana version
-  shell: grafana-cli -v
-  register: check_grafana_version
-  notify: check_grafana_version
+  shell: sudo sh -c "grafana-cli -v 1>> /data/logs/install_version.txt"
 
 - name: Check Grafana Service
   shell: systemctl status grafana-server | grep Active*
