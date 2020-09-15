@@ -8,4 +8,4 @@ init_application:
     password: "admin"
     service_after: grafana-server
     commands: 
-      - sudo grafana-cli admin reset-admin-password $new_password
+      - grafana-cli admin reset-admin-password $new_password
