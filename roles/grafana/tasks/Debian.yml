@@ -1,4 +1,4 @@
-- block 
+- block: 
   - name: import repository gpg key
     apt_key:
       url: https://packages.grafana.com/gpg.key
