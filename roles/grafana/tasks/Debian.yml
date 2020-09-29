@@ -4,7 +4,7 @@
       url: https://packages.grafana.com/gpg.key
 
   - name: import repository for stable
-      apt_repository:
+    apt_repository:
       repo: deb https://packages.grafana.com/oss/deb stable main
       filename: grafana
       update_cache: yes
