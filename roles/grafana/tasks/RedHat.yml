@@ -15,9 +15,9 @@
      yum:
        name: grafana
        state: latest
-  when: "{{grafana_version}}" == "latest"
+  when: "{{grafana_version_meta[grafana_version]}}" == "latest"
  
 - name: Install Grafana
   yum:
     name: "{{grafana_version_meta[grafana_version].RedHat}}"
-  when: "{{grafana_version}}" != "latest"
+  when: "{{grafana_version_meta[grafana_version]}}" != "latest"
