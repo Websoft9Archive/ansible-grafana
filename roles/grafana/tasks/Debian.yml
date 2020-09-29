@@ -11,10 +11,9 @@
 
   - name: Install grafana
     apt:
-    name: grafana
+      name: grafana
   when: grafana_version == latest
 
 - name: Install Grafana
-  yum:
-    name: {{grafana_version_meta[grafana_version].Debian}}
+  shell: dpkg -i {{grafana_version_meta[grafana_version].Debian}}
   when: grafana_version != latest
