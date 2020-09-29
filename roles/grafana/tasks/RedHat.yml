@@ -15,9 +15,9 @@
      yum:
        name: grafana
        state: latest
-  when: {{grafana_version_select}} == "7.2"
+  when: {{grafana_version_select}} == "4"
  
 - name: Install Grafana
   yum:
     name: "{{grafana_version_meta[grafana_version].RedHat}}"
-  when: {{grafana_version_select}} != "7.2"
+  when: {{grafana_version_select}} != "4"
