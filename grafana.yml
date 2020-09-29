@@ -6,6 +6,24 @@
 
   vars_files:
     - vars/main.yml
+  
+   vars_prompt:
+    - name: 'grafana_selection'
+      prompt: "\nPlease choose the number for Grafana version [ 1/2/3/4] \n\n
+      1: Grafana 6.7\n
+      2: Grafana 7.0\n
+      3: Grafana 7.1\n
+      4: Grafana latest\n"
+      private: no
+      default: 4
+  
+  vars:
+    neo4j_select:
+      '1': '6.7'
+      '2': '7.0'
+      '3': '7.1'
+      '4': 'latest'
+    grafana_version: "{{grafana_select[grafana_selection]}}" 
 
   roles:
     - { role: role_common, tags: "role_common"} 
