@@ -24,8 +24,7 @@
       '3': '7.1'
       '4': 'latest'
     grafana_version: "{{grafana_select[grafana_selection]}}" 
-    debug: var={{grafana_version}}
-
+    
   roles:
     - { role: role_common, tags: "role_common"} 
     - { role: role_cloud, tags: "role_cloud" } 
