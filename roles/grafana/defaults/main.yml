@@ -11,5 +11,6 @@ grafana_version_meta:
   "7.2":
      RedHat: "latest"
      Debian: "latest"
-
+     
+grafana_version_select:  "{{grafana_version}}"
 
