@@ -1,16 +1,23 @@
-- name: Add Grafana repositories
-  yum_repository:
-    name: grafana
-    file: grafana
-    description: Grafana RPM Repository
-    baseurl: https://packages.grafana.com/oss/rpm
-    gpgcheck: yes
-    gpgkey: https://packages.grafana.com/gpg.key
-    sslverify: yes
-    sslcacert: /etc/pki/tls/certs/ca-bundle.crt
-    enabled: yes
+- block: 
+   - name: Add Grafana repositories
+     yum_repository:
+        name: grafana
+        file: grafana
+        description: Grafana RPM Repository
+        baseurl: https://packages.grafana.com/oss/rpm
+        gpgcheck: yes
+        gpgkey: https://packages.grafana.com/gpg.key
+        sslverify: yes
+        sslcacert: /etc/pki/tls/certs/ca-bundle.crt
+        enabled: yes
 
+   - name: Install Grafana
+     yum:
+       name: grafana
+       state: latest
+  when: (grafana_version) == "latest"
+ 
 - name: Install Grafana
   yum:
-    name: grafana
-    state: latest
+    name: "{{grafana_version_meta[grafana_version].RedHat}}"
+  when: (grafana_version) != "latest"
