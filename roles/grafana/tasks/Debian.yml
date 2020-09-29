@@ -12,9 +12,9 @@
   - name: Install grafana
     apt:
       name: grafana
-  when: grafana_version == latest
+  when: grafana_version is latest
 
 - name: Install Grafana
   apt:
     name: "{{grafana_version_meta[grafana_version].Debian}}"
-  when: grafana_version != latest
+  when: grafana_version is latest
