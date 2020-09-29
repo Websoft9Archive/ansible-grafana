@@ -8,6 +8,6 @@ grafana_version_meta:
   "7.1":
      RedHat: "https://dl.grafana.com/oss/release/grafana-7.1.5-1.x86_64.rpm"
      Debain: "https://dl.grafana.com/oss/release/grafana_7.1.5_amd64.deb"
-  "7.2"
+  "latest"
      RedHat: "grafana"
      Debian: "grafana"
