@@ -16,5 +16,5 @@
 
 - name: Install Grafana
   apt:
-    name: {{grafana_version_meta[grafana_version].Debian}}
+    name: "{{grafana_version_meta[grafana_version].Debian}}"
   when: grafana_version != latest
