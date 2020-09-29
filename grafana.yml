@@ -13,7 +13,7 @@
       1: Grafana 6.7\n
       2: Grafana 7.0\n
       3: Grafana 7.1\n
-      4: Grafana 7.2\n"
+      4: Grafana latest\n"
       private: no
       default: 4
   
@@ -22,7 +22,7 @@
       '1': '6.7'
       '2': '7.0'
       '3': '7.1'
-      '4': '7.2'
+      '4': 'latest'
     grafana_version: "{{grafana_select[grafana_selection]}}" 
     
   roles:
