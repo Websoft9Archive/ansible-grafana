@@ -18,7 +18,7 @@
       default: 4
   
   vars:
-    neo4j_select:
+    grafana_select:
       '1': '6.7'
       '2': '7.0'
       '3': '7.1'
