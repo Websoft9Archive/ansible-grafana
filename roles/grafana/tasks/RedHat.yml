@@ -11,10 +11,10 @@
         sslcacert: /etc/pki/tls/certs/ca-bundle.crt
         enabled: yes
 
-    - name: Install Grafana
-      yum:
-        name: grafana
-        state: latest
+   - name: Install Grafana
+     yum:
+       name: grafana
+       state: latest
   when: grafana_version == latest
  
 - name: Install Grafana
