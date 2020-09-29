@@ -19,5 +19,5 @@
  
 - name: Install Grafana
   yum:
-    name: {{grafana_version_meta[grafana_version].RedHat}}
+    name: "{{grafana_version_meta[grafana_version].RedHat}}"
   when: grafana_version != latest
