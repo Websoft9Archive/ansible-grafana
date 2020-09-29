@@ -1,4 +1,4 @@
-- block 
+- block: 
    - name: Add Grafana repositories
      yum_repository:
         name: grafana
