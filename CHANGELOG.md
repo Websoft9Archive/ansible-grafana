@@ -3,7 +3,7 @@
 ## Release v8.3.0-1 Release 2021-12-09
 ### Fixes and Enhancements
 - update to v8.3.0
-- 
+
 ## Release v8.1.1-1 Release 2021-08-23
 ### Fixes and Enhancements
 - update to v8.1.1
