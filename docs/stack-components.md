@@ -38,7 +38,7 @@ These Ports is need when use Grafana, refer to [Safe Group Setting on Cloud Cons
 | --- | --- | --- | --- |
 | HTTP | 80 | HTTP requests for Grafana by Nginx proxy | Required |
 | HTTPS | 443 | HTTPS requests Grafana by Nginx proxy| Optional |
-| Grafana | 3000 | Web managment GUI for 3000 | Optional |
+| Grafana | 3000 | Web managment GUI for Grafana | Optional |
 
 ## Version
 
